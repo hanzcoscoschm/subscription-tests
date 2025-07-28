@@ -1,0 +1,22 @@
+{
+  "name": "api-tests",
+  "version": "1.0.0",
+  "description": "API tests for authentication, accounts, and subscription workflows",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 10000,
+    "verbose": true
+  }
+}
